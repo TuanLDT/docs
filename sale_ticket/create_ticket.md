@@ -1,5 +1,5 @@
 
-### Tạo ticket
+## Tạo ticket
 Test: http://123.31.11.105:3003/api/1.0/create_ticket  
 Production: http://saleticket.vietid.net/api/1.0/create_ticket
 
