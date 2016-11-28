@@ -9,9 +9,9 @@ Production: http://saleticket.vietid.net/api/1.0/create_ticket
 
 Field         | Type | Description |
 ------------- | -------------|----------|
-secretkey  | String | key được cấp|
-deal_id  | Int | ID của deal|
-order_id  | String ||
+secretkey(*)  | String | key được cấp|
+deal_id(*)  | Int | ID của deal|
+order_id(*)  | String ||
 customer_name  | String||
 customer_phone  | String||
 customer_email  | String||
