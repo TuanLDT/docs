@@ -11,7 +11,7 @@ Field         | Type | Description |
 ------------- | -------------|----------|
 secretkey(*)  | String | key được cấp|
 deal_id(*)  | Int | ID của deal|
-order_id(*)  | String ||
+order_ids(*)  | [String] || Mảng các order_id
 customer_name  | String||
 customer_phone  | String||
 customer_email  | String||
