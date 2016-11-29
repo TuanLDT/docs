@@ -13,6 +13,7 @@ secretkey(*)  | String | key được cấp|
 data(*)  | [object] | Mảng các object|
 
 Object bao gồm các thông tin sau:
+
 key         | Type | Description |
 ------------- | -------------|----------|
 deal_id(*)  | int | id của deal|
