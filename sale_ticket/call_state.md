@@ -17,7 +17,7 @@ data bao gồm các thông tin sau:
 key         | Type | Description |
 ------------- | -------------|----------|
 call_id`(*)`  | string | Id cuộc gọi|
-phone`(*)`  | [string] | Mảng các order_id|
+phone`(*)`  | string | Số điện thoại khách hàng|
 timestamp`(*)`  | float | Dạng time milisecond|
 state`(*)`  | string|Một trong các trạng thái `ringing`, `picking_up`, `stop`  |
 cs_ext_phone`(*)`  | String|Số máy lẻ của customer support|
