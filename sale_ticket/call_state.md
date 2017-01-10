@@ -21,3 +21,9 @@ phone`(*)`  | [string] | Mảng các order_id|
 timestamp`(*)`  | float | Dạng time milisecond|
 state`(*)`  | string|Một trong các trạng thái `ringing`, `picking_up`, `stop`  |
 cs_ext_phone`(*)`  | String|Số máy lẻ của customer support|
+
+#### Response
+##### Success
+*    {"status": 1, "message": "Success"}
+##### Failed
+*   {"status": 0, "message": "Failed", "errors": [{"message": "error description"}]}
